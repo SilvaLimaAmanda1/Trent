@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Fuzzy+Bubbles:wght@400;700&family=Inconsolata:wght@200..900&family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Slackside+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "PT Serif", serif;
+}
+:root{
+	--white:#fff;
+	--darkF:#b2bec3;
+	--darkOO:#333;
+	--darkP:#DE0F0F;
+	--dark:#070707;
+	--darkB:#5ce1e6;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	background-color: var(--darkOO);
+}
+::-wbkit-scrollbar-thumb{
+	background-color: var(--darkB);
+}
+::-wbkit-scrollbar-thumb:hover{
+	background-color: var(--darkP);
+}
+
+
+body{
+	background-color: var(--darkF);
+}
+header .logo img{
+	width: 150px;
+	height: 150px;
+}
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+header{
+	background-color: var(--darkOO);
+	color: #FFF;
+	padding: 10px 0;
+	text-align: center;
+}
+section{
+	padding: 64px;
+}
+.profile{
+	text-align: center;
+}
+.profile img{
+	border-radius: 50%;
+	width: 310px;
+	height: 260px;
+	margin-bottom: 10px;
+}
+.profile ul{
+	list-style: none;
+	display: flex;
+	gap: 32px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.profile ul li{
+	color: var(--dark);
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.profile ul li:hover{
+	color: var(--white);
+	transition: .5s;
+	cursor: pointer;
+}
+.profile h2{
+	color: var(--dark);
+	font-size: 20px;
+}
+.profile p{
+	font-size: 20px;
+	letter-spacing: 1px;
+	gap: 48px;
+}
+.contato{
+	display: flex;
+	gap: 16px;
+}
+:is(button){
+	padding: .6rem;
+	font-size: .9rem;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: .4s;
+}
+.btn-action{
+	display: flex;
+	gap: 16px;
+}
+.btn-action{
+	background-color: var(--darkOO);
+	border: 1px solid var(--darkB);
+	color: var(--white);
+}
+.btn-action:hover{
+	background-color: var(--dark);
+	border: 1px solid var(--dark);
+}
+footer{
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	background-color: #333;
+}
+footer > div{
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+	flex-wrap: wrap;
+
+}
+footer a{
+	text-decoration: none;
+}
+footer h2{
+	font-size: 20px;
+	color: var(--white);
+}
+footer i{
+	width: 30px;
+	font-size: 25px;
+	color: var(--white);
+}
+footer i:hover{
+	color: var(--dark);
+	transition: .5s;
+	cursor: pointer;
+}
+footer p{
+	font-size: 15px;
+	font-weight: 200;
+}
